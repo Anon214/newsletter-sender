@@ -1,0 +1,64 @@
+.sidebar {
+  flex: 1;
+  border-right: 1px solid rgb(87, 87, 87);
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.911);
+  outline: none;
+  .top {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .logo {
+      font-size: 22px;
+      font-weight: bold;
+      color: rgb(109, 191, 221);
+    }
+  }
+
+  hr {
+    height: 0;
+    border: 0.5px solid rgb(87, 87, 87);
+  }
+
+  .center {
+    padding: 10px;
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      outline: none;
+      Link {
+        outline: none;
+      }
+      .title {
+        font-size: 15px;
+        color: #999;
+        margin-top: 15px;
+        margin-bottom: 5px;
+      }
+      li {
+        outline: none;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #06393d;
+        }
+      }
+      .icon {
+        font-size: 18px;
+        color: rgb(109, 191, 221);
+      }
+      span {
+        font-size: 13px;
+        font-weight: 600;
+        color: #888;
+        margin-left: 10px;
+      }
+    }
+  }
+}

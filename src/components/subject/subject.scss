@@ -1,0 +1,18 @@
+.sub {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+
+  input[type="text"] {
+    width: 700px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    resize: none;
+    outline: none;
+    padding: 0px 6px 0px 6px;
+    &::placeholder {
+      padding: 0px 6px 0px 6px;
+    }
+  }
+}

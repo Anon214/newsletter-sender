@@ -1,0 +1,19 @@
+.outer {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  padding-top: 60px;
+  .b {
+    border: white;
+    border-radius: 3px;
+    background-color: lightblue;
+    width: 300px;
+    height: 35px;
+    font-size: 20px;
+    &:hover {
+      background-color: rgb(123, 201, 201);
+      cursor: pointer;
+    }
+  }
+}
